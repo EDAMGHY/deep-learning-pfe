@@ -8,26 +8,36 @@ Avant de commencer, assurez-vous d'avoir installé les dépendances nécessaires
 
 🔧 Installation des dépendances
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 Si vous rencontrez des problèmes avec TensorFlow, assurez-vous d'avoir une version compatible de Python (>=3.7) et installez TensorFlow avec :
 
-`pip install tensorflow-cpu # Pour une installation CPU`
+```bash
+pip install tensorflow-cpu # Pour une installation CPU
+```
 
 Ou, si vous avez une carte graphique NVIDIA :
 
+```bash
 pip install tensorflow # Version GPU
+```
 
 ## 🚀 Exécution du Projet
 
 Clonez ce dépôt :
 
-`git clone <URL_DU_REPO>
-cd <NOM_DU_REPO>`
+```bash
+git clone <URL_DU_REPO>
+cd <NOM_DU_REPO>
+```
 
 Exécutez le script principal :
 
-`python main.py`
+```bash
+python main.py
+```
 
 Ou, ouvrez le notebook Jupyter pour une exécution interactive :
 
@@ -39,7 +49,7 @@ Le modèle génère des courbes de perte et de précision, que vous pouvez visua
 
 📄 Structure du projet
 
-```
+```bash
 ├── main.py # Code principal
 ├── requirements.txt # Dépendances
 ├── README.md # Instructions
